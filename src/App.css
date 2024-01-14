@@ -1,0 +1,93 @@
+body{
+  padding: 0px;
+  margin: 0px;
+  background: rgb(25,182,98);
+  background: linear-gradient(90deg, rgba(25,182,98,1) 0%, rgba(29,166,4,1) 50%, rgba(1,194,75,1) 100%);
+
+}
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 20px;
+}
+
+section {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+}
+
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+.ImgPerritos {
+width: 15rem;
+height: 11rem;
+border-radius: 2%;
+}
+
+.Nombre {
+  margin-top: 20px;
+  width: 200px;
+}
+
+.tarjeta {
+  width: 18rem;
+  border: 5px solid;
+  border-color: greenyellow;
+  border-radius: 5%;
+}
+
+.posicion {
+  display: flex;
+  gap: 10px;
+}
+
+
+button {
+  width: 200px;
+  background: greenyellow;
+  background: linear-gradient(90deg, rgba(25,182,98,1) 0%, rgba(29,166,4,1) 50%, rgba(1,194,75,1) 100%);
+}
+
+.texto {
+  height: 8rem;
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+}
